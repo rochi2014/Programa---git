@@ -1,0 +1,440 @@
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  background-color: #044662 !important;
+}
+
+/*** Login***/
+.formato-login {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  background-color: #e8f5e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+  margin: 10px;
+  margin-bottom: 20px;
+
+}
+.login-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.login-container img {
+  width: 350px; /* Ajusta el tamaño del logo */
+  margin-bottom: 30px;
+}
+
+.login-container h1 {
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  font-size: 18px;
+width: 220px !important;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+  width: calc(100% - 110px); /* Ajusta el tamaño de los cuadros */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.iniciar-sesion-btn-primary{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.btn-cambiar-password, 
+.btn-soporte{
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.btn-cambiar-password{
+  background-color: #0d6efd ;
+}
+.btn-soporte{
+  background-color: #000000 ;
+}
+
+.config-elementos-fila{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;;
+  font-size: 14px;
+}/*  fin Login*/
+
+/* Plantilla principal */
+.contenido {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.row {
+  flex: 1;
+}
+
+.margen-0 {
+  margin: 0;
+}
+
+.menu-principal {
+  background-color: #044662 !important;
+}
+
+.nav-custom {
+  background-color: #044662 !important;
+}
+.nav-principal {
+  display: grid !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+}
+.btn-menu {
+  width: 160px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.btn-menu:hover {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #007bff !important;
+}
+
+/* Estilos del ícono de hamburguesa */
+.hamburger-icon div {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin: 4px 0;
+}
+
+.parcelas-img {
+  width: 50vh !important;
+}
+
+.logo-sara {
+  width: 25vh !important;
+}
+
+header {
+  background-color: #044662 !important;
+  width: 100%;
+  margin: 0;
+  padding: 2px;
+}
+.txt-cerrar-sesion {
+  color: #ffffff;
+}
+
+#main_1 {
+  background-color: #edffeb;
+  min-height: calc(
+    100vh - 5vh
+  ); /* Ajusta la altura para que el main ocupe todo el viewport menos el footer */
+  flex: 1 0 auto; /* Permite que el main crezca y ocupe el espacio disponible */
+  margin: 0;
+}
+
+.btn-menu-hamburger{
+  display: flex;
+  flex-direction: column;
+  justify-content: center !important;
+  height: 30px;
+  
+}
+.encabezados-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center!important;
+  align-content: center;
+  gap: 20px
+}
+
+.icono-menu{
+  margin-right: 18px;
+}
+
+.dark-mode {
+display: flex;
+border: solid 2px ;
+
+}
+
+.user-thumbnail {
+  width: 32px; /* Ajusta el tamaño de la miniatura */
+  height: 32px;
+  object-fit: cover; /* Asegura que la imagen se recorte adecuadamente dentro del círculo */
+  border-radius: 50%; /* Hace que la imagen sea circular */
+}
+
+
+.banner img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banner {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #6c757d;
+  border: none;
+}
+
+.encabezado-1 {
+  padding-left: 4px;
+  padding-top: 10px;
+}
+
+.btn-funcion {
+  width: 150px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+.seccion-1 {
+  background-color: #edffeb;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #044662 !important;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #ffffff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 5vh; /* Altura del footer */
+  padding-bottom: 2rem;
+  z-index: 1000; /* Asegura que el footer esté al frente */
+}
+
+/*Adaptando el menu a mobiles*/
+@media (max-width: 768px) {
+  .d-none-mobile {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+html,
+body {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  background-color: #044662 !important;
+}
+}
+
+@media (max-width: 768px) {
+/*** Login***/
+.formato-login {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #e8f5e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin: 10px;
+  margin-bottom: 20px;
+
+}
+.login-container {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.login-container img {
+  width: 200px; /* Ajusta el tamaño del logo */
+  margin-bottom: 30px;
+}
+
+.login-container h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container label {
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  text-align: left;
+  font-size: 16px;
+width: 70px !important;
+}
+
+.input-container input[type="text"],
+.input-container input[type="password"] {
+  width: calc(100% - 110px); /* Ajusta el tamaño de los cuadros */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.iniciar-sesion-btn-primary{
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.btn-cambiar-password, 
+.btn-soporte{
+  color: #FFFFFF;
+  padding: 10px;
+  border-radius: 5%;
+}
+
+.btn-cambiar-password{
+  background-color: #0d6efd ;
+}
+.btn-soporte{
+  background-color: #000000 ;
+}
+
+.config-elementos-fila{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;;
+  font-size: 12px;
+}
+/*  fin Login*/
+}
+
+
+@media (max-width: 768px) {
+  .d-visible-mobile {
+    display: block !important;
+  }
+
+  .nav-principal {
+    display: block !important;
+    justify-content: center !important;
+    align-items: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-principal {
+    min-height: calc(
+      100vh - 5vh
+    ); /* Ajusta la altura para que el menú y el contenido ocupen el espacio completo */
+  }
+}
+
+/*Fin Adaptando el menu a mobiles*/
+/* Plantilla principal */
+
+
+/*Sub Menu*/
+.sub-menu {
+  display: block;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.btn-sub-menu {
+  background-color: #044662 !important;
+  color: #ffffff;
+  width: 155px;
+  padding: 2px;
+  margin: 2px;
+}
+
+.btn-sub-menu:hover {
+  color: #000000;
+  font-weight: bold;
+  background-color: #007bff !important;
+}
+
+.btn-sub-menu:focus {
+  color: #000000;
+  font-weight: bold;
+  background-color: #007bff !important;
+}
+
+/*Gestion de usuarios*/
+
+.formatear-form-usuarios-1 {
+  display: none;
+  background-color: #5f90c5;
+  align-items: start;
+  justify-content: space-between;
+  padding-right: 0.5rem;
+  padding-top: 0.5rem;
+  margin: 0;
+  padding: 15px;
+}
+
+.tabla-usuarios{
+  margin-bottom: 25px;
+}
+
+/*Gestion de usuario Fin*/
